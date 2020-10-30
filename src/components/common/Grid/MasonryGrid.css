@@ -148,7 +148,7 @@
 .blog-meta small a,
 .blog-meta small {
   font-weight: 500;
-  color: #999 !important;
+  color: #999;
 }
 
 .masonry-box:hover .blog-meta span.bg-category {
