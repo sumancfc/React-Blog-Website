@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Breadcrumb.css";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({ pageTitle }) => {
   return (
     <div className='breadcrumb-section'>
       <div className='container'>
@@ -12,7 +12,7 @@ const Breadcrumb = () => {
               <li className='breadcrumb-item'>
                 <Link to='/'>Home</Link>
               </li>
-              <li className='breadcrumb-item active'>Contact</li>
+              <li className='breadcrumb-item active'>{pageTitle}</li>
             </ol>
           </div>
         </div>
