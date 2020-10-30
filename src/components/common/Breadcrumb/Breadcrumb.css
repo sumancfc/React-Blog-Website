@@ -1,0 +1,23 @@
+.breadcrumb-section {
+  margin-top: 3.5rem;
+  padding: 3rem 0;
+  background-color: #edeff2;
+}
+
+.breadcrumb {
+  list-style: outside none none;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+.breadcrumb-item {
+  float: none;
+  font-size: 12px;
+  display: inline-block;
+}
