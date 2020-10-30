@@ -1,10 +1,11 @@
 import React from "react";
+import MasonryGrid from "../common/Grid/MasonryGrid";
 import Layout from "../Layout";
 
 const Home = () => {
   return (
     <Layout>
-      <div>Welcome Home</div>
+      <MasonryGrid />
     </Layout>
   );
 };

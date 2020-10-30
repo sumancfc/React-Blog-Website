@@ -76,3 +76,17 @@ a {
   color: #111111;
   text-decoration: none !important;
 }
+
+.section {
+  padding: 4rem 0;
+  display: block;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.bg-category {
+  background-color: #ff6347 !important;
+  color: #fff !important;
+  padding: 0 0.8rem;
+  border-radius: 3px;
+}
