@@ -1,0 +1,29 @@
+.page-link {
+  background-color: #edeff2 !important;
+  border: 0 dashed #e2e2e2;
+  border-radius: 0;
+  color: #a3a5a8 !important;
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  margin-left: 6px;
+  padding: 0.8rem 0.8rem;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, #0091e5 0px, #00b7e5 100%) repeat scroll 0 0 !important;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0;
+}

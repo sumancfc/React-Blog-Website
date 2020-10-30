@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import RecentNewsItem from "./RecentNewsItem";
+import { postdata } from "./Postdata";
 import "./RecentNews.css";
+import Pagination from "../Pagination";
 
 const RecentNews = () => {
+  const [posts, setPosts] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postPerPage] = useState(5);
+
+  useEffect(() => {
+    setPosts(postdata);
+  }, []);
+
+  //Get current posts
+  const indexOfLastPost = currentPage * postPerPage;
+  const indexOfFirstPost = indexOfLastPost - postPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+
+  //Change Page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   return (
     <section className='section'>
       <div className='container'>
@@ -19,39 +37,16 @@ const RecentNews = () => {
               </h4>
             </div>
 
-            <RecentNewsItem />
+            <RecentNewsItem posts={currentPosts} />
           </div>
 
-          <hr className='invis' />
+          <hr className='invisible' />
 
-          <div className='row'>
-            <div className='col-md-12'>
-              <nav aria-label='Page navigation'>
-                <ul className='pagination justify-content-start'>
-                  <li className='page-item'>
-                    <Link className='page-link' to='#'>
-                      1
-                    </Link>
-                  </li>
-                  <li className='page-item'>
-                    <Link className='page-link' to='#'>
-                      2
-                    </Link>
-                  </li>
-                  <li className='page-item'>
-                    <Link className='page-link' to='#'>
-                      3
-                    </Link>
-                  </li>
-                  <li className='page-item'>
-                    <Link className='page-link' to='#'>
-                      Next
-                    </Link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+          <Pagination
+            postPerPage={postPerPage}
+            totalPosts={posts.length}
+            paginate={paginate}
+          />
         </div>
       </div>
     </section>
