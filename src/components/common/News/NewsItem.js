@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RecentNewsItem = ({ posts }) => {
+const NewsItem = ({ posts }) => {
   return (
     <div className='blog-list clearfix'>
       {posts.map((post, i) => (
@@ -50,4 +50,4 @@ const RecentNewsItem = ({ posts }) => {
   );
 };
 
-export default RecentNewsItem;
+export default NewsItem;

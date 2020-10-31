@@ -1,0 +1,31 @@
+.social-button {
+  background-color: #dddddd;
+  display: table;
+  padding: 0.5rem 1rem;
+  color: #ffffff !important;
+  position: relative;
+  width: 100%;
+}
+
+.social-button .fa {
+  color: #ffffff !important;
+}
+
+.social-button p {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #ffffff !important;
+  line-height: 1;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+}
+
+.twitter-button {
+  background-color: #1da1f2;
+}
+
+.youtube-button {
+  background-color: #cd201f;
+}

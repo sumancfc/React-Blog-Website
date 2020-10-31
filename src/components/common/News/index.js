@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import RecentNewsItem from "./RecentNewsItem";
+import NewsItem from "./NewsItem";
 import { postdata } from "./Postdata";
-import "./RecentNews.css";
 import Pagination from "../Pagination";
+import "./News.css";
 
-const RecentNews = () => {
+const News = ({ title = false }) => {
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(10);
@@ -23,18 +22,15 @@ const RecentNews = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className='col-lg-9 col-md-12 col-sm-12 col-xs-12'>
+    <>
       <div className='page-wrapper'>
-        <div className='blog-top clearfix'>
-          <h4 className='pull-left'>
-            Recent News
-            <Link to='#'>
-              <i className='fa fa-rss'></i>
-            </Link>
-          </h4>
-        </div>
+        {title && (
+          <div className='blog-top clearfix'>
+            <h4 className='pull-left'>{title}</h4>
+          </div>
+        )}
 
-        <RecentNewsItem posts={currentPosts} />
+        <NewsItem posts={currentPosts} />
       </div>
 
       <hr className='invisible' />
@@ -44,8 +40,8 @@ const RecentNews = () => {
         totalPosts={posts.length}
         paginate={paginate}
       />
-    </div>
+    </>
   );
 };
 
-export default RecentNews;
+export default News;
