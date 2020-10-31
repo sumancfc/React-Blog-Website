@@ -108,3 +108,9 @@ a {
   background: rgba(0, 0, 0, 0)
     linear-gradient(to right, #0091e5 0px, #00b7e5 100%) repeat scroll 0 0 !important;
 }
+
+.fa-star {
+  font-size: 12px;
+  margin: 0 2px 0 0;
+  color: #fbb034;
+}
