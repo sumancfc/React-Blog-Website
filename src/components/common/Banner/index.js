@@ -3,13 +3,15 @@ import "./Banner.css";
 
 const Banner = ({ image }) => {
   return (
-    <div class='banner-spot clearfix'>
-      <div class='banner-img'>
-        <img
-          src={`/assets/upload/${image}.jpg`}
-          alt={image}
-          class='img-fluid'
-        />
+    <div className='widget'>
+      <div className='banner-spot clearfix'>
+        <div className='banner-img'>
+          <img
+            src={`/assets/upload/${image}.jpg`}
+            alt={image}
+            className='img-fluid'
+          />
+        </div>
       </div>
     </div>
   );

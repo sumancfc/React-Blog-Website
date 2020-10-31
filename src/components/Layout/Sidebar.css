@@ -1,0 +1,19 @@
+.sidebar .widget {
+  position: relative;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.sidebar .widget-title {
+  display: block;
+  font-size: 18px;
+  margin: 0 0 2rem;
+  padding: 0;
+  line-height: 1;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    margin: 1.5rem 0;
+  }
+}
