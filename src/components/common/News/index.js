@@ -23,15 +23,13 @@ const News = ({ title = false }) => {
 
   return (
     <>
-      <div className='page-wrapper'>
-        {title && (
-          <div className='blog-top clearfix'>
-            <h4 className='pull-left'>{title}</h4>
-          </div>
-        )}
+      {title && (
+        <div className='blog-top clearfix'>
+          <h4 className='pull-left'>{title}</h4>
+        </div>
+      )}
 
-        <NewsItem posts={currentPosts} />
-      </div>
+      <NewsItem posts={currentPosts} />
 
       <hr className='invisible' />
 

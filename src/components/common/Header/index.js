@@ -69,31 +69,19 @@ const Header = () => {
                             className='tablinks active'
                             onClick={(event) => openCategory(event, "cat01")}
                           >
-                            Science
+                            Gadgets
                           </button>
                           <button
                             className='tablinks'
                             onClick={(event) => openCategory(event, "cat02")}
                           >
-                            Technology
+                            Videos
                           </button>
                           <button
                             className='tablinks'
                             onClick={(event) => openCategory(event, "cat03")}
                           >
-                            Social Media
-                          </button>
-                          <button
-                            className='tablinks'
-                            onClick={(event) => openCategory(event, "cat04")}
-                          >
-                            Car News
-                          </button>
-                          <button
-                            className='tablinks'
-                            onClick={(event) => openCategory(event, "cat05")}
-                          >
-                            Worldwide
+                            Technology
                           </button>
                         </div>
 
@@ -103,19 +91,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='/science' title=''>
+                                    <Link to='/gadgets'>
                                       <img
-                                        src='/assets/upload/tech_menu_01.jpg'
+                                        src='/assets/upload/menu_2.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Science</span>
+                                      <span className='menucat'>Gadgets</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/gadgets'>
                                         Top 10+ care advice for your toenails
                                       </Link>
                                     </h4>
@@ -126,19 +114,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/gadgets'>
                                       <img
-                                        src='upload/tech_menu_02.jpg'
+                                        src='/assets/upload/menu_1.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Science</span>
+                                      <span className='menucat'>Gadgets</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/gadgets'>
                                         The secret of your beauty is handmade
                                         soap
                                       </Link>
@@ -150,19 +138,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/gadgets'>
                                       <img
-                                        src='upload/tech_menu_03.jpg'
+                                        src='/assets/upload/menu_4.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Science</span>
+                                      <span className='menucat'>Gadgets</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/gadgets'>
                                         Benefits of face mask made from mud
                                       </Link>
                                     </h4>
@@ -173,19 +161,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/gadgets'>
                                       <img
-                                        src='upload/tech_menu_04.jpg'
+                                        src='/assets/upload/menu_3.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Science</span>
+                                      <span className='menucat'>Gadgets</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/gadgets'>
                                         Relax with the unique warmth of candle
                                         flavor
                                       </Link>
@@ -200,21 +188,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/videos'>
                                       <img
-                                        src='upload/tech_menu_05.jpg'
+                                        src='/assets/upload/menu_5.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Technology
-                                      </span>
+                                      <span className='menucat'>Videos</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/videos'>
                                         2017 summer stamp will have design
                                         models here
                                       </Link>
@@ -226,21 +212,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/videos'>
                                       <img
-                                        src='upload/tech_menu_06.jpg'
+                                        src='/assets/upload/menu_3.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Technology
-                                      </span>
+                                      <span className='menucat'>Videos</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/videos'>
                                         Which color is the most suitable color
                                         for you?
                                       </Link>
@@ -252,21 +236,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/videos'>
                                       <img
-                                        src='upload/tech_menu_07.jpg'
+                                        src='/assets/upload/menu_2.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Technology
-                                      </span>
+                                      <span className='menucat'>Videos</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/videos'>
                                         Subscribe to these sites to keep an eye
                                         on the fashion
                                       </Link>
@@ -278,21 +260,19 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/videos'>
                                       <img
-                                        src='upload/tech_menu_08.jpg'
+                                        src='/assets/upload/menu_1.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Technology
-                                      </span>
+                                      <span className='menucat'>Videos</span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/videos'>
                                         The most trends of this year with color
                                         combination
                                       </Link>
@@ -307,98 +287,21 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/technology'>
                                       <img
-                                        src='upload/tech_menu_09.jpg'
+                                        src='/assets/upload/menu_4.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
                                       <span className='menucat'>
-                                        Social Media
+                                        Technology
                                       </span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        I visited the architects of Istanbul for
-                                        you
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_10.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Social Media
-                                      </span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        Prepared handmade dish dish in the
-                                        Netherlands
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_11.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Social Media
-                                      </span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        I recommend you visit the fairy chimneys
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_12.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>
-                                        Social Media
-                                      </span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
+                                      <Link to='/technology'>
                                         One of the most beautiful ports in the
                                         world
                                       </Link>
@@ -406,28 +309,27 @@ const Header = () => {
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                          <div id='cat04' className='tabcontent'>
-                            <div className='row'>
+
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/technology'>
                                       <img
-                                        src='upload/tech_menu_13.jpg'
+                                        src='/assets/upload/menu_3.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Car News</span>
+                                      <span className='menucat'>
+                                        Technology
+                                      </span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        A collection of the most beautiful shop
-                                        designs
+                                      <Link to='/technology'>
+                                        One of the most beautiful ports in the
+                                        world
                                       </Link>
                                     </h4>
                                   </div>
@@ -437,21 +339,23 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/technology'>
                                       <img
-                                        src='upload/tech_menu_14.jpg'
+                                        src='/assets/upload/menu_2.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Car News</span>
+                                      <span className='menucat'>
+                                        Technology
+                                      </span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        America's and Canada's most beautiful
-                                        wine houses
+                                      <Link to='/technology'>
+                                        One of the most beautiful ports in the
+                                        world
                                       </Link>
                                     </h4>
                                   </div>
@@ -461,141 +365,23 @@ const Header = () => {
                               <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
                                 <div className='blog-box'>
                                   <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
+                                    <Link to='/technology'>
                                       <img
-                                        src='upload/tech_menu_15.jpg'
+                                        src='/assets/upload/menu_1.jpg'
                                         alt=''
                                         className='img-fluid'
                                       />
                                       <div className='hovereffect'></div>
-                                      <span className='menucat'>Car News</span>
+                                      <span className='menucat'>
+                                        Technology
+                                      </span>
                                     </Link>
                                   </div>
                                   <div className='blog-meta'>
                                     <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        The most professional ways to color your
-                                        walls
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_16.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>Car News</span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        Stylish cabinet designs and furnitures
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div id='cat05' className='tabcontent'>
-                            <div className='row'>
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_17.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>Worldwide</span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        Grilled vegetable with fish prepared
-                                        with fish
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_18.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>Worldwide</span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        The world's finest and clean meat
-                                        restaurants
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_19.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>Worldwide</span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        Fried veal and vegetable dish
-                                      </Link>
-                                    </h4>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
-                                <div className='blog-box'>
-                                  <div className='post-media'>
-                                    <Link to='tech-single.html' title=''>
-                                      <img
-                                        src='upload/tech_menu_20.jpg'
-                                        alt=''
-                                        className='img-fluid'
-                                      />
-                                      <div className='hovereffect'></div>
-                                      <span className='menucat'>Worldwide</span>
-                                    </Link>
-                                  </div>
-                                  <div className='blog-meta'>
-                                    <h4>
-                                      <Link to='tech-single.html' title=''>
-                                        Tasty pasta sauces and recipes
+                                      <Link to='/technology'>
+                                        One of the most beautiful ports in the
+                                        world
                                       </Link>
                                     </h4>
                                   </div>
@@ -610,18 +396,18 @@ const Header = () => {
                 </ul>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='tech-category-01.html'>
+                <Link className='nav-link' to='/gadgets'>
                   Gadgets
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='tech-category-02.html'>
-                  Videos
+                <Link className='nav-link' to='/videos'>
+                  videos
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='tech-category-03.html'>
-                  Reviews
+                <Link className='nav-link' to='/technology'>
+                  Technology
                 </Link>
               </li>
               <li className='nav-item'>

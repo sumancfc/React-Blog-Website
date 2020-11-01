@@ -1,0 +1,55 @@
+.authorbox {
+  position: relative;
+  padding: 3rem 2rem;
+  border: 1px dashed #dadada;
+}
+
+.authorbox a {
+  font-weight: bold;
+}
+
+.authorbox p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.authorbox p a {
+  color: #ff6347;
+}
+
+.author-title {
+  background: #edeff2 none repeat scroll 0 0;
+  font-size: 16px;
+  left: 5%;
+  line-height: 1;
+  margin: 0;
+  padding: 0.6rem 1.5rem;
+  position: absolute;
+  text-align: center;
+  top: -18px;
+}
+
+hr.invisible {
+  border: 0;
+  margin: 4rem 0;
+}
+.topsocial .fa {
+  margin-right: 0.5rem;
+  font-size: 15px;
+}
+
+.topsocial .fa.fa-facebook {
+  color: #4b6ea9;
+}
+
+.topsocial .fa.fa-twitter {
+  color: #1ab2f5;
+}
+
+.topsocial .fa.fa-youtube {
+  color: #d44638;
+}
+
+.topsocial .fa.fa-instagram {
+  color: #405de6;
+}
