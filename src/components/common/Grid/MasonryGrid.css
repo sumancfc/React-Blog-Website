@@ -8,6 +8,10 @@
   padding: 0 3px;
 }
 
+.masonry-blog {
+  width: 100%;
+}
+
 .masonry-box {
   position: relative;
   overflow: hidden;
